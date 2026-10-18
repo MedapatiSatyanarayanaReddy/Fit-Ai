@@ -1,48 +1,55 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.828.0",
-    "@google/generative-ai": "^0.24.1",
-    "amazon-cognito-identity-js": "^6.3.15",
-    "aws-amplify": "^6.15.0",
-    "axios": "^1.8.4",
-    "cra-template": "1.2.0",
-    "marked": "^15.0.12",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-markdown": "^10.1.0",
-    "react-router-dom": "^7.5.1",
-    "react-scripts": "5.0.1"
-  },
+  "name": "xtend",
+  "version": "4.0.2",
+  "description": "extend like a boss",
+  "keywords": [
+    "extend",
+    "merge",
+    "options",
+    "opts",
+    "object",
+    "array"
+  ],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/xtend.git",
+  "main": "immutable",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "node test"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.1.0"
+  },
+  "homepage": "https://github.com/Raynos/xtend",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    },
+    {
+      "name": "Matt Esch"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/xtend/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "license": "MIT",
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/7..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest"
     ]
   },
-  "devDependencies": {
-    "@eslint/js": "9.23.0",
-    "autoprefixer": "^10.4.20",
-    "eslint": "9.23.0",
-    "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-jsx-a11y": "6.10.2",
-    "eslint-plugin-react": "7.37.4",
-    "globals": "15.15.0",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17"
+  "engines": {
+    "node": ">=0.4"
   }
 }
